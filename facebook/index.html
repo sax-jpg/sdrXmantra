@@ -3,13 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FACEBOOK | SDR*</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>ABOUT ME | SDR*</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Sovrascriviamo leggermente il layout solo per questa pagina */
+        .about-content {
+            min-height: 80vh; /* Usiamo min-height per gestire testi lunghi su mobile */
+            display: flex;
+            align-items: center; 
+            justify-content: flex-start; 
+            padding-left: 15%; 
+            padding-right: 10%; /* MARGINE DESTRO AGGIUNTO */
+            text-align: left;
+            box-sizing: border-box;
+        }
+
+        .about-text {
+            font-size: clamp(18px, 3vw, 28px); /* Leggermente ridotto il max per l'equilibrio */
+            line-height: 1.4;
+            max-width: 800px; /* Larghezza massima controllata */
+            font-weight: 400;
+            text-transform: uppercase;
+            word-wrap: break-word; /* Evita che parole lunghe escano dal bordo */
+        }
+
+        .back-home {
+            position: fixed;
+            bottom: 40px;
+            left: 10%;
+            font-weight: 700;
+            color: #FF4500;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <script>
-        // Redirect to Facebook
-        window.location.href = 'https://www.facebook.com/sabatino.derosa1';
-    </script>
+
+    <nav class="top-nav">
+        <a href="index.html" class="logo" style="text-decoration: none;">🍌🍌🍌</a>
+        <div class="login">INSTAGRAM*</div>
+    </nav>
+
+    <main class="about-content">
+        <div class="about-text">
+            This link is temporarily offline. I decided to take a short break from Instagram — some things on that social media platform were starting to get on my nerves. Maybe one day I’ll be back. Stay tuned.
+    </main>
+
+    <a href="index.html" class="back-home">← BACK</a>
+
 </body>
 </html>
