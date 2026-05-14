@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT | SDR*</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .about-content {
+            min-height: 80vh;
+            display: flex;
+            align-items: center; 
+            justify-content: flex-start; 
+            padding-left: 15%; 
+            padding-right: 15%;
+            text-align: left;
+        }
+
+        .survey-container {
+            font-family: 'Roboto Mono', monospace;
+            text-transform: uppercase;
+        }
+
+        .survey-question {
+            font-size: 14px;
+            color: #FF4500;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        .survey-options a {
+            display: block;
+            font-size: clamp(20px, 3vw, 32px);
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #000;
+            text-decoration: none;
+            transition: color 0.3s, transform 0.2s;
+        }
+
+        .survey-options a:hover {
+            color: #FF4500;
+            transform: translateX(10px);
+        }
+
+        .back-home {
+            position: fixed;
+            bottom: 40px;
+            left: 10%;
+            font-weight: 700;
+            color: #FF4500;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="top-nav">
+        <a href="index.html" class="logo" style="text-decoration: none;">🍝🍝🍝</a>
+        <div class="login">CONTACT/SDR*</div>
+    </nav>
+
+    <main class="about-content">
+        <div class="survey-container">
+            <p class="survey-question">WHAT ARE YOU CONTACTING ME FOR?</p>
+            
+            <div class="survey-options">
+                <a href="contact-work.html">→ JOB / COLLABORATION PROPOSAL</a>
+                <a href="contact-chat.html">→ A CHAT OR SOME ADVICE</a>
+                <a href="contact-quote.html">→ A PROJECT QUOTE</a>
+            </div>
+        </div>
+    </main>
+
+    <a href="index.html" class="back-home">← BACK</a>
+
+</body>
+</html>

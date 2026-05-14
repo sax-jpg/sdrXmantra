@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT ME | SDR*</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Sovrascriviamo leggermente il layout solo per questa pagina */
+        .about-content {
+            min-height: 80vh; 
+            display: flex;
+            align-items: center; 
+            justify-content: flex-start; 
+            padding-left: 15%; 
+            padding-right: 10%; 
+            text-align: left;
+            box-sizing: border-box;
+        }
+
+        .about-text {
+            font-size: clamp(18px, 3vw, 28px); 
+            line-height: 1.4;
+            max-width: 800px; 
+            font-weight: 400;
+            text-transform: uppercase;
+            word-wrap: break-word; 
+        }
+
+        /* Stile specifico per la mail */
+        .email-link {
+            display: block;
+            margin-top: 30px;
+            color: #FF4500;
+            font-weight: 700;
+            text-decoration: underline;
+            text-transform: lowercase; /* La mail è meglio leggerla in minuscolo */
+        }
+
+        .back-home {
+            position: fixed;
+            bottom: 40px;
+            left: 10%;
+            font-weight: 700;
+            color: #FF4500;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="top-nav">
+        <a href="index.html" class="logo" style="text-decoration: none;">🍝🍝🍝</a>
+        <div class="login">COLLABORATION*</div>
+    </nav>
+
+    <main class="about-content">
+        <div class="about-text">
+            First of all, thank you for reaching out to me. One of the most wonderful things about social media is the opportunity for dialogue and collaboration. That said, this is my email address:
+            
+            <a href="mailto:info@sabatinoderosa.com" class="email-link">
+                info@sabatinoderosa.com
+            </a>
+        </div>
+    </main>
+
+    <a href="contact.html" class="back-home">← BACK</a>
+
+</body>
+</html>
